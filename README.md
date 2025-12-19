@@ -103,15 +103,8 @@ RealDataClassificator/
 
 ### Prerequisites
 - Python 3.7+
-### Installation
-
-1. Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
-2. Install dependencies:
-```bash
+Install dependencies:
 pip install -r requirements.txt
 ```
 
@@ -153,6 +146,7 @@ pip install -r requirements.txt
 ## Data Format
 
 Input data should include:
+
 - `driver_id` - Driver identifier
 - `planned_route_location` - List of planned stops
 - `actual_route_unique` - List of actual stops visited
