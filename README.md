@@ -10,6 +10,25 @@ This project analyzes real-world delivery route data to:
 - **Analyze driver performance** and route deviations
 - **Compare planned vs. actual routes** to identify optimization opportunities
 
+## Publication
+
+This work has been published in a peer-reviewed journal"Expert Systems with Applications". Please cite this work when using the code or methods.
+
+**Citation Information:**
+```
+Anna Konovalenko, Lars Magnus Hvattum, Kim Aleksander Hammer Iversen,
+Predicting last-mile delivery route deviations using machine learning,
+Expert Systems with Applications,
+Volume 298, Part D,
+2026,
+129921,
+ISSN 0957-4174,
+https://doi.org/10.1016/j.eswa.2025.129921.
+(https://www.sciencedirect.com/science/article/pii/S0957417425035365)
+
+```
+
+
 The system processes actual delivery data from logistics operations, comparing planned routes with routes executed by drivers to quantify delivery efficiency and identify improvement areas.
 <img width="592" height="294" alt="Screenshot 2025-12-19 at 12 22 56" src="https://github.com/user-attachments/assets/43bb39f8-3c74-4e34-a2ad-471fe2aaa48e" />
 
@@ -135,17 +154,6 @@ Input data should include:
 - `date` - Delivery date
 - `country_flag` - Country/region
 - Additional features as needed
-
-See `data/README.md` for detailed data documentation.
-
-## Publication
-
-This work has been published in a peer-reviewed journal. Please cite this work when using the code or methods.
-
-**Citation Information:**
-```
-[Your publication citation here]
-```
 
 
 **Last Updated:** December 19, 2024
