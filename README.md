@@ -1,4 +1,4 @@
-# RealDataClassificator
+# Predicting last-mile delivery route deviations using machine learning
 
 A machine learning system for classifying delivery routes and predicting route quality scores using deep learning models. This work has been published in a peer-reviewed journal.
 
@@ -6,7 +6,7 @@ A machine learning system for classifying delivery routes and predicting route q
 
 This project analyzes real-world delivery route data to:
 - **Classify routes** based on their characteristics and execution patterns
-- **Predict quality scores** for routes using LSTM and Attention-based neural networks
+- **Predict quality scores** for routes using LSTM, CNN and Attention-based neural networks
 - **Analyze driver performance** and route deviations
 - **Compare planned vs. actual routes** to identify optimization opportunities
 
