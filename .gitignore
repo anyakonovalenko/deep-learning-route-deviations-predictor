@@ -1,0 +1,192 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Large data files (not tracked - use .gitkeep in directories)
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.txt
+data/processed/*.csv
+data/processed/*.txt
+
+# Large output files
+output.txt
+output 2.txt
+*.log
+
+# Model files (too large for git)
+*.pt
+models/*.pt
+!models/README.md
+!models/.gitkeep
+
+# Visualization outputs
+outputs/route_visualizations/*.html
+outputs/visualizations/*.png
+outputs/results/*.csv
+!outputs/.gitkeep
+!outputs/route_visualizations/.gitkeep
+!outputs/visualizations/.gitkeep
+!outputs/results/.gitkeep
+
+# Maps and large visualizations
+maps/Location.html
+maps/*.html
+img_routes/*.html
+img_routes/*.png
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# OS-specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Experiment tracking
+wandb/
+mlruns/
+.mlflow
+
+# Cache
+.cache/
+*.cache
+
+# Credentials and secrets
+.env
+.env.local
+secrets.yaml
+credentials.json
+aws/credentials
+
+# Build artifacts
+*.so
+*.o
+*.a
+*.la
+*.lo
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Unit test
+test-results/
+test_results.xml
+
+# Sphinx documentation
+docs/_build/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Specific large files
+routes_driver_analysis.csv
+routes_driver_analysis.xlsx
+routes_driver_analysis_2.xlsx
+test_routes_categorized_HA.csv
+route.png
+
+
+data/
+img_routes/
+models/
+outputs/route_visualizations
+outputs/visualizations
+notebooks/experiments
+maps/
+outputs/
+src/
+DOCUMENTATION_INDEX.md
+GITHUB_PUBLICATION_CHECKLIST.md
+QUICK_START.md
+RESTRUCTURE_GUIDE.md
+setup.py

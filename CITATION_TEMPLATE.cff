@@ -1,0 +1,87 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'RealDataClassificator: Route Classification and Driver Performance Analysis using Deep Learning'
+message: 'If you use this software, please cite it using the metadata from this file.'
+type: software
+authors:
+  - given-names: Anna
+    family-names: Konovalenko
+    email: anna@zinko.org
+    affiliation: Molde University College
+    orcid: 'https://orcid.org/0000-0000-0000-0000'  # Optional: Add your ORCID
+
+repository-code: 'https://github.com/[your-username]/RealDataClassificator'
+url: 'https://github.com/[your-username]/RealDataClassificator'
+repository: 'https://github.com/[your-username]/RealDataClassificator'
+
+abstract: |
+  RealDataClassificator is a machine learning system for analyzing delivery routes and predicting
+  route quality scores using deep learning models (LSTM and Attention-based architectures).
+  The project provides classification of route characteristics and regression models for
+  predicting driver performance metrics based on planned vs. actual route execution.
+
+keywords:
+  - 'machine learning'
+  - 'deep learning'
+  - 'route optimization'
+  - 'driver performance'
+  - 'LSTM'
+  - 'attention mechanism'
+  - 'logistics'
+  - 'delivery routes'
+
+license: MIT  # Change to appropriate license: MIT, Apache-2.0, GPL-3.0, etc.
+
+version: 1.0.0
+date-released: 2024-12-18
+
+preferred-citation:
+  type: article
+  authors:
+    - given-names: [Your First Name]
+      family-names: [Your Last Name]
+  title: '[Your Paper Title]'
+  journal: '[Journal Name]'
+  year: 2024
+  volume: '[Volume Number]'
+  issue: '[Issue Number]'
+  pages: '[Pages]'
+  doi: '[DOI Number]'
+  url: '[URL to Paper]'
+
+# Optional: References to related publications
+references:
+  - type: article
+    title: 'LSTM: A Search Space Odyssey'
+    authors:
+      - given-names: Klaus
+        family-names: Greff
+      - given-names: Rupesh Kumar
+        family-names: Srivastava
+      - given-names: Jan
+        family-names: Koutník
+      - given-names: Bas R.
+        family-names: Steunebrink
+      - given-names: Jürgen
+        family-names: Schmidhuber
+    year: 2016
+    journal: 'IEEE Transactions on Neural Networks and Learning Systems'
+    volume: 37
+    issue: 10
+    pages: '2047-2060'
+    doi: '10.1109/TNNLS.2015.2440435'
+
+  - type: article
+    title: 'Predicting last-mile route deviations'
+    authors:
+      - given-names: Lars Magnus
+        family-names: Hvattum
+      - given-names: Kim Aleksander Hammer
+        family-names: Iversen
+      
+    year: 2026
+    journal: 'Expert Systems with Applications'
+    volume: 30
+    pages: '5998-6008'

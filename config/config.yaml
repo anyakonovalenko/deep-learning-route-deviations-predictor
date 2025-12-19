@@ -1,0 +1,147 @@
+# RealDataClassificator Configuration File
+# Update these values based on your environment and requirements
+
+# Data Configuration
+data:
+  raw_data_path: "data/raw/data.csv"
+  processed_data_path: "data/processed/"
+  train_test_split: 0.8
+  val_split: 0.1
+  random_seed: 42
+
+# Model Configuration
+model:
+  # Choice: baseline, lstm, attention, larger, filtered
+  type: "lstm"
+
+  # Classification model settings
+  classification:
+    num_classes: 2
+    hidden_dim: 128
+
+  # Regression model (score prediction) settings
+  regression:
+    hidden_dim: 128
+    num_layers: 2
+    dropout: 0.3
+    use_bidirectional: true
+
+# Training Configuration
+training:
+  batch_size: 32
+  num_epochs: 50
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  patience: 10  # Early stopping patience
+  device: "cuda"  # "cuda" or "cpu"
+
+  # Optimizer: "adam", "sgd", "rmsprop"
+  optimizer: "adam"
+
+  # Loss function: "mse", "mae", "huber", "cross_entropy"
+  loss_function: "mse"
+
+  # Learning rate scheduler
+  scheduler:
+    enabled: true
+    type: "cosine"  # "linear", "cosine", "exponential"
+    warmup_epochs: 5
+
+# Preprocessing Configuration
+preprocessing:
+  normalize_features: true
+  normalize_method: "standard"  # "standard" or "minmax"
+  remove_outliers: false
+  outlier_threshold: 3.0  # Standard deviations
+  fill_missing_values: true
+  missing_method: "mean"  # "mean", "median", "forward_fill"
+
+# Feature Engineering
+features:
+  use_temporal_features: true
+  use_distance_features: true
+  use_time_window_features: true
+  use_driver_features: true
+  use_route_features: true
+
+# Evaluation Configuration
+evaluation:
+  metrics:
+    classification:
+      - "accuracy"
+      - "precision"
+      - "recall"
+      - "f1"
+      - "roc_auc"
+    regression:
+      - "mae"
+      - "mse"
+      - "rmse"
+      - "r2"
+
+  # Cross-validation
+  cross_validation:
+    enabled: true
+    n_splits: 5
+    strategy: "kfold"  # "kfold" or "stratified"
+
+# Logging Configuration
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  log_file: "logs/training.log"
+  tensorboard_enabled: false
+  wandb_enabled: false
+
+  # Wandb configuration (if enabled)
+  wandb:
+    project_name: "RealDataClassificator"
+    entity: "your-wandb-entity"
+
+# Output Configuration
+output:
+  model_save_path: "models/"
+  results_save_path: "outputs/results/"
+  visualization_save_path: "outputs/visualizations/"
+  save_model_checkpoint: true
+  save_predictions: true
+  save_metrics: true
+
+# Inference Configuration
+inference:
+  batch_size: 64
+  model_path: "models/prediction_model.pt"
+  confidence_threshold: 0.5  # For classification
+
+# Advanced Options
+advanced:
+  # Mixed precision training
+  use_amp: false
+
+  # Gradient accumulation
+  gradient_accumulation_steps: 1
+
+  # Gradient clipping
+  clip_grad_norm: true
+  max_grad_norm: 1.0
+
+  # Data augmentation
+  use_augmentation: false
+  augmentation_probability: 0.5
+
+  # Regularization
+  use_l1_regularization: false
+  l1_weight: 0.0001
+  use_l2_regularization: true
+  l2_weight: 0.0001
+
+  # Dropout
+  dropout_rate: 0.3
+
+  # Batch normalization
+  use_batch_norm: true
+
+# Debug Mode
+debug:
+  enabled: false
+  sample_data_fraction: 0.1  # Use only 10% of data for quick testing
+  verbose_logging: true
