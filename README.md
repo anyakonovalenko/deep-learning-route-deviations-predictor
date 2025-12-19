@@ -12,7 +12,7 @@ This project analyzes real-world delivery route data to:
 
 This work has been published in a peer-reviewed journal"Expert Systems with Applications". Please cite this work when using the code or methods.
 
-<img width="729" height="262" alt="Screenshot 2025-12-19 at 15 38 43" src="https://github.com/user-attachments/assets/802975ff-b7db-4b27-ab9e-76976feb65c3" />
+[LINK]([https://](https://doi.org/10.1016/j.eswa.2025.129921))
 
 **Citation Information:**
 ```
