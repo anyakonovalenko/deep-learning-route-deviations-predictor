@@ -11,6 +11,7 @@ This project analyzes real-world delivery route data to:
 - **Compare planned vs. actual routes** to identify optimization opportunities
 
 The system processes actual delivery data from logistics operations, comparing planned routes with routes executed by drivers to quantify delivery efficiency and identify improvement areas.
+<img width="592" height="294" alt="Screenshot 2025-12-19 at 12 22 56" src="https://github.com/user-attachments/assets/43bb39f8-3c74-4e34-a2ad-471fe2aaa48e" />
 
 ## Key Features
 
