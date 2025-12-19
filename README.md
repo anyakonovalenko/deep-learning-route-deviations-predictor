@@ -12,7 +12,7 @@ This project analyzes real-world delivery route data to:
 
 This work has been published in a peer-reviewed journal"Expert Systems with Applications". Please cite this work when using the code or methods.
 
-[LINK]([https://](https://doi.org/10.1016/j.eswa.2025.129921))
+[LINK](https://doi.org/10.1016/j.eswa.2025.129921)
 
 **Citation Information:**
 ```
