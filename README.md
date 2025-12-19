@@ -1,18 +1,27 @@
 # Predicting last-mile delivery route deviations using machine learning
 
-A machine learning system for classifying delivery routes and predicting route quality scores using deep learning models. This work has been published in a peer-reviewed journal.
+A machine learning system for classifying delivery routes based on whether or not the driver will deviate from the proposed optimal route and predicting route quality scores using deep learning models. This work has been published in a peer-reviewed journal.
 
 ## Project Overview
 
 This project analyzes real-world delivery route data to:
 - **Classify routes** based on their characteristics and execution patterns
 - **Predict quality scores** for routes using LSTM, CNN and Attention-based neural networks
-- **Analyze driver performance** and route deviations
-- **Compare planned vs. actual routes** to identify optimization opportunities
+- Regression and classification models quantify and predict route deviations
+- Route deviation metrics to measure the similarity of routes.
+- Models use sequential route structure, route attributes, and driver information.
+- Exploring tacit driver knowledge for efficient route planning.
+- Publicly available dataset supports further research.
+- Future opportunities: identify optimization opportunities for planned routes
 
-This work has been published in a peer-reviewed journal"Expert Systems with Applications". Please cite this work when using the code or methods.
+This work has been published in the peer-reviewed journal "Expert Systems with Applications". Please cite this work when using the code or methods.
 
-[LINK](https://doi.org/10.1016/j.eswa.2025.129921)
+[FULL PAPER HERE](https://doi.org/10.1016/j.eswa.2025.129921)
+
+[Anonymized dataset](https://data.mendeley.com/datasets/kkwgfvmtxn/1)
+
+**Please note**: Project notebooks used the full available company dataset. All sensitive company information is hidden and not available to view in output cells.
+
 
 **Citation Information:**
 ```
